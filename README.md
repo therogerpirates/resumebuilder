@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# ResumeAI
 
-## Project info
+ResumeAI is a web application that helps users create professional resumes using AI assistance. It provides features like resume creation, management, and premium templates.
 
-**URL**: https://lovable.dev/projects/028d6f3c-e003-4aeb-8331-fb5f96a3d0fd
+## Features
 
-## How can I edit this code?
+- **Create Resume**: Build professional resumes with AI assistance.
+- **My Resumes**: View and manage your created resumes.
+- **Premium Features**: Unlock advanced AI features and templates.
+- **Google Sign-In**: Authenticate using Google for seamless access.
+- **Admin Panel**: Manage user data and monitor activity.
 
-There are several ways of editing your application.
+## Installation
 
-**Use Lovable**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/resume-ai.git
+   cd resume-ai
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/028d6f3c-e003-4aeb-8331-fb5f96a3d0fd) and start prompting.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-**Use your preferred IDE**
+## Firebase Configuration
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Ensure you have a Firebase project set up. Update the Firebase credentials in `/src/firebase/config.js`.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Usage
 
-Follow these steps:
+- Navigate to the application in your browser.
+- Sign in using Google or email/password.
+- Create and manage resumes from the dashboard.
+- Access the admin panel for user management.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## License
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/028d6f3c-e003-4aeb-8331-fb5f96a3d0fd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License.
